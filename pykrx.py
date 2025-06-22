@@ -6,7 +6,7 @@ import time
 
 # ✅ 한글 → 영문 컬럼명 매핑
 column_mapping = {
-    '시가': 'open',
+    '시가': 'ope',
     '고가': 'high',
     '저가': 'low',
     '종가': 'close',
@@ -94,3 +94,4 @@ for code in stock_codes:
 cursor.close()
 conn.close()
 print(f"🎯 {count}개 종목 신규 데이터 수집 완료")
+# 수정
